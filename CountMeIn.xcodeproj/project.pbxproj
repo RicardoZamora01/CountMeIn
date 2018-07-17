@@ -13,6 +13,7 @@
 		8CB9F32020FE5488005C7544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F31E20FE5488005C7544 /* Main.storyboard */; };
 		8CB9F32220FE548A005C7544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F32120FE548A005C7544 /* Assets.xcassets */; };
 		8CB9F32520FE548A005C7544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F32320FE548A005C7544 /* LaunchScreen.storyboard */; };
+		8CB9F33820FE63B4005C7544 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F33720FE63B4005C7544 /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8CB9F32420FE548A005C7544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CB9F32620FE548A005C7544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CB9F33620FE5DE5005C7544 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8CB9F33720FE63B4005C7544 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		9B0EB26C456F15F8DFAC4453 /* Pods-CountMeIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountMeIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-CountMeIn/Pods-CountMeIn.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +100,7 @@
 			children = (
 				8CB9F32320FE548A005C7544 /* LaunchScreen.storyboard */,
 				8CB9F31E20FE5488005C7544 /* Main.storyboard */,
+				8CB9F33720FE63B4005C7544 /* Login.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CB9F33820FE63B4005C7544 /* Login.storyboard in Resources */,
 				8CB9F32520FE548A005C7544 /* LaunchScreen.storyboard in Resources */,
 				8CB9F32220FE548A005C7544 /* Assets.xcassets in Resources */,
 				8CB9F32020FE5488005C7544 /* Main.storyboard in Resources */,
