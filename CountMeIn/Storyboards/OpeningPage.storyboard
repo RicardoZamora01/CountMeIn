@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Login View Controller-->
+        <!--Opening View Controller-->
         <scene sceneID="YrX-5P-inj">
             <objects>
-                <viewController id="eNC-Y8-kAf" customClass="LoginViewController" customModule="CountMeIn" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eNC-Y8-kAf" customClass="OpeningViewController" customModule="CountMeIn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q4r-b8-Yre">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -67,20 +67,75 @@
             </objects>
             <point key="canvasLocation" x="1024.8" y="81.409295352323838"/>
         </scene>
-        <!--Create Username View Controller-->
+        <!--Categories-->
         <scene sceneID="AME-cJ-UQW">
             <objects>
                 <viewController id="Pyg-FL-y8W" customClass="CreateUsernameViewController" customModule="CountMeIn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aJr-Io-avw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sux-FG-jyv">
+                                <rect key="frame" x="235" y="188" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <state key="normal" title="Button" backgroundImage="beliefs.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FY9-Bz-WS9">
+                                <rect key="frame" x="76" y="188" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="animals.png">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Button">
+                                            <attributes>
+                                                <font key="NSFont" size="1" name=".SFNSText"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WId-dI-YL6">
+                                <rect key="frame" x="76" y="409" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <state key="normal" title="Button" backgroundImage="education.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulb-j3-JGT">
+                                <rect key="frame" x="235" y="409" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="poverty.jpg"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="xch-YU-9jN"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Categories" id="Zt8-X2-Xqb">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="nkW-JW-m3d">
+                            <connections>
+                                <segue destination="hIC-6t-Bce" kind="show" id="1DN-z1-pih"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T0j-6r-7Hf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1732" y="81"/>
+            <point key="canvasLocation" x="1732" y="80.50974512743629"/>
+        </scene>
+        <!--Selections-->
+        <scene sceneID="1JM-K3-oLn">
+            <objects>
+                <viewController id="hIC-6t-Bce" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i1Z-I1-cHU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="oUV-DE-oeW"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Selections" id="noX-Da-oeQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0rl-xH-lb8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2492" y="94"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Fam-A5-2qF">
@@ -103,6 +158,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="animals.png" width="2000" height="2000"/>
+        <image name="beliefs.png" width="2000" height="2000"/>
+        <image name="education.png" width="832" height="720"/>
         <image name="helper.png" width="417" height="417"/>
+        <image name="poverty.jpg" width="900" height="600"/>
     </resources>
 </document>

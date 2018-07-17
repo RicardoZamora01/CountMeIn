@@ -14,7 +14,7 @@ import FirebaseDatabase
 
 typealias FIRUser = FirebaseAuth.User
 
-class LoginViewController: UIViewController {
+class OpeningViewController: UIViewController {
     @IBOutlet weak var nextbutton: UIButton!
     
     override func viewDidLoad() {

@@ -13,13 +13,17 @@
 		8CB9F32020FE5488005C7544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F31E20FE5488005C7544 /* Main.storyboard */; };
 		8CB9F32220FE548A005C7544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F32120FE548A005C7544 /* Assets.xcassets */; };
 		8CB9F32520FE548A005C7544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F32320FE548A005C7544 /* LaunchScreen.storyboard */; };
-		8CB9F33820FE63B4005C7544 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F33720FE63B4005C7544 /* Login.storyboard */; };
-		8CB9F33A20FE6759005C7544 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9F33920FE6759005C7544 /* LoginViewController.swift */; };
+		8CB9F33A20FE6759005C7544 /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9F33920FE6759005C7544 /* OpeningViewController.swift */; };
 		8CB9F33E20FE6C2B005C7544 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F33D20FE6C2B005C7544 /* GoogleService-Info.plist */; };
 		8CB9F34020FE70B6005C7544 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9F33F20FE70B6005C7544 /* User.swift */; };
 		8CB9F34320FE8F34005C7544 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9F34220FE8F34005C7544 /* Constants.swift */; };
 		8CB9F34B20FE96B3005C7544 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9F34A20FE96B3005C7544 /* CreateUsernameViewController.swift */; };
 		8CB9F34D20FEACBC005C7544 /* helper.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F34C20FEACBC005C7544 /* helper.png */; };
+		8CB9F34F20FEB403005C7544 /* OpeningPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F34E20FEB403005C7544 /* OpeningPage.storyboard */; };
+		8CB9F35120FEB690005C7544 /* animals.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F35020FEB690005C7544 /* animals.png */; };
+		8CB9F35320FEB6A0005C7544 /* beliefs.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F35220FEB6A0005C7544 /* beliefs.png */; };
+		8CB9F35520FEB6A6005C7544 /* education.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F35420FEB6A6005C7544 /* education.png */; };
+		8CB9F35720FEB6AD005C7544 /* poverty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F35620FEB6AD005C7544 /* poverty.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,13 +36,17 @@
 		8CB9F32120FE548A005C7544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CB9F32420FE548A005C7544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CB9F32620FE548A005C7544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CB9F33720FE63B4005C7544 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		8CB9F33920FE6759005C7544 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8CB9F33920FE6759005C7544 /* OpeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewController.swift; sourceTree = "<group>"; };
 		8CB9F33D20FE6C2B005C7544 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../.Trash/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8CB9F33F20FE70B6005C7544 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8CB9F34220FE8F34005C7544 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8CB9F34A20FE96B3005C7544 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		8CB9F34C20FEACBC005C7544 /* helper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helper.png; sourceTree = SOURCE_ROOT; };
+		8CB9F34E20FEB403005C7544 /* OpeningPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = OpeningPage.storyboard; path = CountMeIn/Storyboards/OpeningPage.storyboard; sourceTree = SOURCE_ROOT; };
+		8CB9F35020FEB690005C7544 /* animals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animals.png; sourceTree = SOURCE_ROOT; };
+		8CB9F35220FEB6A0005C7544 /* beliefs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beliefs.png; sourceTree = SOURCE_ROOT; };
+		8CB9F35420FEB6A6005C7544 /* education.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = education.png; sourceTree = SOURCE_ROOT; };
+		8CB9F35620FEB6AD005C7544 /* poverty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = poverty.jpg; sourceTree = SOURCE_ROOT; };
 		9B0EB26C456F15F8DFAC4453 /* Pods-CountMeIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountMeIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-CountMeIn/Pods-CountMeIn.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +92,10 @@
 		8CB9F31920FE5488005C7544 /* CountMeIn */ = {
 			isa = PBXGroup;
 			children = (
+				8CB9F35020FEB690005C7544 /* animals.png */,
+				8CB9F35220FEB6A0005C7544 /* beliefs.png */,
+				8CB9F35420FEB6A6005C7544 /* education.png */,
+				8CB9F35620FEB6AD005C7544 /* poverty.jpg */,
 				8CB9F34C20FEACBC005C7544 /* helper.png */,
 				8CB9F31A20FE5488005C7544 /* AppDelegate.swift */,
 				8CB9F33520FE5D98005C7544 /* Supporting */,
@@ -103,7 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				8CB9F31C20FE5488005C7544 /* ViewController.swift */,
-				8CB9F33920FE6759005C7544 /* LoginViewController.swift */,
+				8CB9F33920FE6759005C7544 /* OpeningViewController.swift */,
 				8CB9F34A20FE96B3005C7544 /* CreateUsernameViewController.swift */,
 			);
 			path = Controllers;
@@ -114,7 +126,7 @@
 			children = (
 				8CB9F32320FE548A005C7544 /* LaunchScreen.storyboard */,
 				8CB9F31E20FE5488005C7544 /* Main.storyboard */,
-				8CB9F33720FE63B4005C7544 /* Login.storyboard */,
+				8CB9F34E20FEB403005C7544 /* OpeningPage.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -234,12 +246,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CB9F33820FE63B4005C7544 /* Login.storyboard in Resources */,
+				8CB9F35320FEB6A0005C7544 /* beliefs.png in Resources */,
+				8CB9F35720FEB6AD005C7544 /* poverty.jpg in Resources */,
 				8CB9F32520FE548A005C7544 /* LaunchScreen.storyboard in Resources */,
 				8CB9F33E20FE6C2B005C7544 /* GoogleService-Info.plist in Resources */,
+				8CB9F35120FEB690005C7544 /* animals.png in Resources */,
 				8CB9F32220FE548A005C7544 /* Assets.xcassets in Resources */,
+				8CB9F35520FEB6A6005C7544 /* education.png in Resources */,
 				8CB9F32020FE5488005C7544 /* Main.storyboard in Resources */,
 				8CB9F34D20FEACBC005C7544 /* helper.png in Resources */,
+				8CB9F34F20FEB403005C7544 /* OpeningPage.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +332,7 @@
 				8CB9F34B20FE96B3005C7544 /* CreateUsernameViewController.swift in Sources */,
 				8CB9F34320FE8F34005C7544 /* Constants.swift in Sources */,
 				8CB9F34020FE70B6005C7544 /* User.swift in Sources */,
-				8CB9F33A20FE6759005C7544 /* LoginViewController.swift in Sources */,
+				8CB9F33A20FE6759005C7544 /* OpeningViewController.swift in Sources */,
 				8CB9F31D20FE5488005C7544 /* ViewController.swift in Sources */,
 				8CB9F31B20FE5488005C7544 /* AppDelegate.swift in Sources */,
 			);
