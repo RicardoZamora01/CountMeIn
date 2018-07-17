@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2333FBACA3A4A46F1BB3F008 /* Pods_CountMeIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A17FA0ECF8268779016EDFC /* Pods_CountMeIn.framework */; };
 		8CB9F31B20FE5488005C7544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9F31A20FE5488005C7544 /* AppDelegate.swift */; };
 		8CB9F31D20FE5488005C7544 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9F31C20FE5488005C7544 /* ViewController.swift */; };
 		8CB9F32020FE5488005C7544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F31E20FE5488005C7544 /* Main.storyboard */; };
 		8CB9F32220FE548A005C7544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F32120FE548A005C7544 /* Assets.xcassets */; };
 		8CB9F32520FE548A005C7544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F32320FE548A005C7544 /* LaunchScreen.storyboard */; };
+		8CB9F32D20FE597F005C7544 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F32C20FE597F005C7544 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		416FA9D2C316BC9EA2E10A3E /* Pods-CountMeIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountMeIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CountMeIn/Pods-CountMeIn.debug.xcconfig"; sourceTree = "<group>"; };
+		8A17FA0ECF8268779016EDFC /* Pods_CountMeIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CountMeIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB9F31720FE5488005C7544 /* CountMeIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountMeIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB9F31A20FE5488005C7544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CB9F31C20FE5488005C7544 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		8CB9F32120FE548A005C7544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CB9F32420FE548A005C7544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CB9F32620FE548A005C7544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB9F32C20FE597F005C7544 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9B0EB26C456F15F8DFAC4453 /* Pods-CountMeIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountMeIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-CountMeIn/Pods-CountMeIn.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2333FBACA3A4A46F1BB3F008 /* Pods_CountMeIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		816702E9115AF9D947F8E6EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				416FA9D2C316BC9EA2E10A3E /* Pods-CountMeIn.debug.xcconfig */,
+				9B0EB26C456F15F8DFAC4453 /* Pods-CountMeIn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8CB9F30E20FE5488005C7544 = {
 			isa = PBXGroup;
 			children = (
 				8CB9F31920FE5488005C7544 /* CountMeIn */,
 				8CB9F31820FE5488005C7544 /* Products */,
+				816702E9115AF9D947F8E6EA /* Pods */,
+				D5135E1F16FDC2A56F9E3DEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +78,17 @@
 				8CB9F32120FE548A005C7544 /* Assets.xcassets */,
 				8CB9F32320FE548A005C7544 /* LaunchScreen.storyboard */,
 				8CB9F32620FE548A005C7544 /* Info.plist */,
+				8CB9F32C20FE597F005C7544 /* GoogleService-Info.plist */,
 			);
 			path = CountMeIn;
+			sourceTree = "<group>";
+		};
+		D5135E1F16FDC2A56F9E3DEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A17FA0ECF8268779016EDFC /* Pods_CountMeIn.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CB9F32920FE548A005C7544 /* Build configuration list for PBXNativeTarget "CountMeIn" */;
 			buildPhases = (
+				08044F677EE1CB61A4AF82F6 /* [CP] Check Pods Manifest.lock */,
 				8CB9F31320FE5488005C7544 /* Sources */,
 				8CB9F31420FE5488005C7544 /* Frameworks */,
 				8CB9F31520FE5488005C7544 /* Resources */,
+				70C00CF760878D64E709CEE5 /* [CP] Embed Pods Frameworks */,
+				006499F08EA602C6E8DE8EA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,12 +153,76 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB9F32520FE548A005C7544 /* LaunchScreen.storyboard in Resources */,
+				8CB9F32D20FE597F005C7544 /* GoogleService-Info.plist in Resources */,
 				8CB9F32220FE548A005C7544 /* Assets.xcassets in Resources */,
 				8CB9F32020FE5488005C7544 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		006499F08EA602C6E8DE8EA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CountMeIn/Pods-CountMeIn-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CountMeIn/Pods-CountMeIn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08044F677EE1CB61A4AF82F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CountMeIn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70C00CF760878D64E709CEE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CountMeIn/Pods-CountMeIn-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CountMeIn/Pods-CountMeIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8CB9F31320FE5488005C7544 /* Sources */ = {
@@ -278,6 +372,7 @@
 		};
 		8CB9F32A20FE548A005C7544 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416FA9D2C316BC9EA2E10A3E /* Pods-CountMeIn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +390,7 @@
 		};
 		8CB9F32B20FE548A005C7544 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B0EB26C456F15F8DFAC4453 /* Pods-CountMeIn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
