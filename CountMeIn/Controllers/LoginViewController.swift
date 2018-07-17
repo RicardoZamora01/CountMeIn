@@ -8,9 +8,18 @@
 
 import Foundation
 import UIKit
+import FirebaseAuth
+import FirebaseUI
+import FirebaseDatabase
+
+typealias FIRUser = FirebaseAuth.User
 
 class LoginViewController: UIViewController {
+    @IBOutlet weak var nextbutton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
 }
+

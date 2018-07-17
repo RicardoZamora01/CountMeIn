@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eNC-Y8-kAf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iOr-YQ-BpG">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -17,13 +17,92 @@
                     <view key="view" contentMode="scaleToFill" id="Q4r-b8-Yre">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="oZX-2S-5pa">
+                                <rect key="frame" x="38" y="154" width="417" height="419"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Count Me In" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1e-Ek-ODC">
+                                        <rect key="frame" x="130.5" y="0.0" width="156.5" height="31"/>
+                                        <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="28"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="helper.png" translatesAutoresizingMaskIntoConstraints="NO" id="tFc-Fv-XQk">
+                                        <rect key="frame" x="0.0" y="58" width="417" height="300"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="3kc-Ua-ztg"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWY-oX-CvN">
+                                        <rect key="frame" x="189" y="385" width="39" height="34"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <state key="normal" title="Next">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Pyg-FL-y8W" kind="show" identifier="toCategories" id="KBb-zt-X8d"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="cm1-w5-S79"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.21960784310000001" green="0.59215686270000001" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oZX-2S-5pa" firstAttribute="top" secondItem="XDY-tV-sNa" secondAttribute="top" constant="90" id="IOC-fS-PHz"/>
+                            <constraint firstItem="oZX-2S-5pa" firstAttribute="leading" secondItem="XDY-tV-sNa" secondAttribute="leading" constant="38" id="M2h-pB-1Pc"/>
+                            <constraint firstItem="XDY-tV-sNa" firstAttribute="trailing" secondItem="oZX-2S-5pa" secondAttribute="trailing" constant="38" id="MNE-e6-sMt"/>
+                            <constraint firstItem="XDY-tV-sNa" firstAttribute="bottom" secondItem="oZX-2S-5pa" secondAttribute="bottom" constant="45" id="kqQ-lo-dmM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="XDY-tV-sNa"/>
                     </view>
+                    <navigationItem key="navigationItem" id="I9e-6I-frF"/>
+                    <connections>
+                        <outlet property="nextbutton" destination="eWY-oX-CvN" id="lAr-7B-6qe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QtV-ia-pOq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="87" y="82"/>
+            <point key="canvasLocation" x="1024.8" y="81.409295352323838"/>
+        </scene>
+        <!--Create Username View Controller-->
+        <scene sceneID="AME-cJ-UQW">
+            <objects>
+                <viewController id="Pyg-FL-y8W" customClass="CreateUsernameViewController" customModule="CountMeIn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aJr-Io-avw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="xch-YU-9jN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T0j-6r-7Hf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1732" y="81"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Fam-A5-2qF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iOr-YQ-BpG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Mmz-PX-EJ8">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eNC-Y8-kAf" kind="relationship" relationship="rootViewController" id="d3i-82-V6V"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wyl-8c-xkH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="85.599999999999994" y="81.409295352323838"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="helper.png" width="417" height="417"/>
+    </resources>
 </document>
