@@ -13,7 +13,6 @@
 		8CB9F32020FE5488005C7544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F31E20FE5488005C7544 /* Main.storyboard */; };
 		8CB9F32220FE548A005C7544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F32120FE548A005C7544 /* Assets.xcassets */; };
 		8CB9F32520FE548A005C7544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F32320FE548A005C7544 /* LaunchScreen.storyboard */; };
-		8CB9F32D20FE597F005C7544 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F32C20FE597F005C7544 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,7 @@
 		8CB9F32120FE548A005C7544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CB9F32420FE548A005C7544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CB9F32620FE548A005C7544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CB9F32C20FE597F005C7544 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8CB9F33620FE5DE5005C7544 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9B0EB26C456F15F8DFAC4453 /* Pods-CountMeIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountMeIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-CountMeIn/Pods-CountMeIn.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,14 +72,78 @@
 			isa = PBXGroup;
 			children = (
 				8CB9F31A20FE5488005C7544 /* AppDelegate.swift */,
-				8CB9F31C20FE5488005C7544 /* ViewController.swift */,
-				8CB9F31E20FE5488005C7544 /* Main.storyboard */,
+				8CB9F33520FE5D98005C7544 /* Supporting */,
+				8CB9F33420FE5D89005C7544 /* Services */,
+				8CB9F33320FE5D74005C7544 /* Models */,
+				8CB9F33220FE5D68005C7544 /* Helpers */,
+				8CB9F33120FE5D1A005C7544 /* Extensions */,
+				8CB9F33020FE5CAA005C7544 /* Views */,
+				8CB9F32F20FE5C93005C7544 /* Storyboards */,
+				8CB9F32E20FE5C7D005C7544 /* Controllers */,
 				8CB9F32120FE548A005C7544 /* Assets.xcassets */,
-				8CB9F32320FE548A005C7544 /* LaunchScreen.storyboard */,
-				8CB9F32620FE548A005C7544 /* Info.plist */,
-				8CB9F32C20FE597F005C7544 /* GoogleService-Info.plist */,
 			);
 			path = CountMeIn;
+			sourceTree = "<group>";
+		};
+		8CB9F32E20FE5C7D005C7544 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9F31C20FE5488005C7544 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8CB9F32F20FE5C93005C7544 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9F32320FE548A005C7544 /* LaunchScreen.storyboard */,
+				8CB9F31E20FE5488005C7544 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8CB9F33020FE5CAA005C7544 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8CB9F33120FE5D1A005C7544 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8CB9F33220FE5D68005C7544 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8CB9F33320FE5D74005C7544 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8CB9F33420FE5D89005C7544 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8CB9F33520FE5D98005C7544 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9F32620FE548A005C7544 /* Info.plist */,
+				8CB9F33620FE5DE5005C7544 /* GoogleService-Info.plist */,
+			);
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 		D5135E1F16FDC2A56F9E3DEC /* Frameworks */ = {
@@ -153,7 +216,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB9F32520FE548A005C7544 /* LaunchScreen.storyboard in Resources */,
-				8CB9F32D20FE597F005C7544 /* GoogleService-Info.plist in Resources */,
 				8CB9F32220FE548A005C7544 /* Assets.xcassets in Resources */,
 				8CB9F32020FE5488005C7544 /* Main.storyboard in Resources */,
 			);
@@ -376,7 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CountMeIn/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CountMeIn/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,7 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CountMeIn/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CountMeIn/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
