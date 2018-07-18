@@ -25,6 +25,7 @@
 		8CB9F35720FEB6AD005C7544 /* poverty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F35620FEB6AD005C7544 /* poverty.jpg */; };
 		8CB9F35920FFA5F0005C7544 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9F35820FFA5F0005C7544 /* CategoriesViewController.swift */; };
 		8CB9F35E20FFEE0F005C7544 /* 644321-200.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F35D20FFEE0F005C7544 /* 644321-200.png */; };
+		8CB9F36020FFF026005C7544 /* Organizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9F35F20FFF026005C7544 /* Organizations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		8CB9F35620FEB6AD005C7544 /* poverty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = poverty.jpg; path = CountMeIn/Images/poverty.jpg; sourceTree = SOURCE_ROOT; };
 		8CB9F35820FFA5F0005C7544 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		8CB9F35D20FFEE0F005C7544 /* 644321-200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "644321-200.png"; sourceTree = SOURCE_ROOT; };
+		8CB9F35F20FFF026005C7544 /* Organizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organizations.swift; sourceTree = "<group>"; };
 		9B0EB26C456F15F8DFAC4453 /* Pods-CountMeIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountMeIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-CountMeIn/Pods-CountMeIn.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,8 +96,8 @@
 		8CB9F31920FE5488005C7544 /* CountMeIn */ = {
 			isa = PBXGroup;
 			children = (
-				8CB9F35C20FFAD2C005C7544 /* Images */,
 				8CB9F31A20FE5488005C7544 /* AppDelegate.swift */,
+				8CB9F35C20FFAD2C005C7544 /* Images */,
 				8CB9F33520FE5D98005C7544 /* Supporting */,
 				8CB9F33420FE5D89005C7544 /* Services */,
 				8CB9F33320FE5D74005C7544 /* Models */,
@@ -171,6 +173,7 @@
 				8CB9F32620FE548A005C7544 /* Info.plist */,
 				8CB9F33D20FE6C2B005C7544 /* GoogleService-Info.plist */,
 				8CB9F34220FE8F34005C7544 /* Constants.swift */,
+				8CB9F35F20FFF026005C7544 /* Organizations.swift */,
 			);
 			path = Supporting;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 			files = (
 				8CB9F34320FE8F34005C7544 /* Constants.swift in Sources */,
 				8CB9F34020FE70B6005C7544 /* User.swift in Sources */,
+				8CB9F36020FFF026005C7544 /* Organizations.swift in Sources */,
 				8CB9F35920FFA5F0005C7544 /* CategoriesViewController.swift in Sources */,
 				8CB9F33A20FE6759005C7544 /* OpeningViewController.swift in Sources */,
 				8CB9F31D20FE5488005C7544 /* ViewController.swift in Sources */,
