@@ -25,6 +25,7 @@
 		8CB9F35920FFA5F0005C7544 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9F35820FFA5F0005C7544 /* CategoriesViewController.swift */; };
 		8CB9F36020FFF026005C7544 /* Organizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9F35F20FFF026005C7544 /* Organizations.swift */; };
 		8CB9F3802100FEA1005C7544 /* pov.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9F37F2100FE99005C7544 /* pov.png */; };
+		8CB9F38221011030005C7544 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9F38121011030005C7544 /* SelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		8CB9F35820FFA5F0005C7544 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		8CB9F35F20FFF026005C7544 /* Organizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organizations.swift; sourceTree = "<group>"; };
 		8CB9F37F2100FE99005C7544 /* pov.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pov.png; sourceTree = SOURCE_ROOT; };
+		8CB9F38121011030005C7544 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
 		9B0EB26C456F15F8DFAC4453 /* Pods-CountMeIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountMeIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-CountMeIn/Pods-CountMeIn.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +117,7 @@
 				8CB9F31C20FE5488005C7544 /* ViewController.swift */,
 				8CB9F33920FE6759005C7544 /* OpeningViewController.swift */,
 				8CB9F35820FFA5F0005C7544 /* CategoriesViewController.swift */,
+				8CB9F38121011030005C7544 /* SelectionViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				8CB9F36020FFF026005C7544 /* Organizations.swift in Sources */,
 				8CB9F35920FFA5F0005C7544 /* CategoriesViewController.swift in Sources */,
 				8CB9F33A20FE6759005C7544 /* OpeningViewController.swift in Sources */,
+				8CB9F38221011030005C7544 /* SelectionViewController.swift in Sources */,
 				8CB9F31D20FE5488005C7544 /* ViewController.swift in Sources */,
 				8CB9F31B20FE5488005C7544 /* AppDelegate.swift in Sources */,
 			);
