@@ -8,11 +8,11 @@
 
 import Foundation
 import UIKit
-import FirebaseAuth
-import FirebaseUI
-import FirebaseDatabase
+//import FirebaseAuth
+//import FirebaseUI
+//import FirebaseDatabase
 
-typealias FIRUser = FirebaseAuth.User
+//typealias FIRUser = FirebaseAuth.User
 
 class OpeningViewController: UIViewController {
     @IBOutlet weak var nextbutton: UIButton!

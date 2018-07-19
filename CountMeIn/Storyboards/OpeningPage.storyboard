@@ -75,19 +75,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="90" translatesAutoresizingMaskIntoConstraints="NO" id="mn3-dd-JdN">
-                                <rect key="frame" x="62.5" y="188.5" width="250" height="290"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="65" translatesAutoresizingMaskIntoConstraints="NO" id="mn3-dd-JdN">
+                                <rect key="frame" x="42.5" y="181" width="290" height="305"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="mfB-fU-czb">
-                                        <rect key="frame" x="0.0" y="0.0" width="250" height="100"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="290" height="120"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FY9-Bz-WS9">
-                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="100" id="BAg-ZV-1uk"/>
-                                                    <constraint firstAttribute="width" constant="100" id="nVv-VP-aGC"/>
+                                                    <constraint firstAttribute="width" constant="120" id="nOZ-Ep-vdn"/>
+                                                    <constraint firstAttribute="height" constant="120" id="x4T-xL-jgn"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <state key="normal" title="Animals" image="animals.png"/>
                                                 <connections>
                                                     <action selector="animalsButtonTapped:" destination="Pyg-FL-y8W" eventType="touchUpInside" id="mMZ-jB-0mK"/>
@@ -95,28 +95,34 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2K5-Zq-ux4">
-                                                <rect key="frame" x="150" y="0.0" width="100" height="100"/>
+                                                <rect key="frame" x="170" y="0.0" width="120" height="120"/>
                                                 <accessibility key="accessibilityConfiguration" label="Religion"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="100" id="MJX-Y0-HT4"/>
-                                                    <constraint firstAttribute="width" constant="100" id="ZY7-5o-REa"/>
+                                                    <constraint firstAttribute="width" constant="120" id="0jF-gN-rvL"/>
+                                                    <constraint firstAttribute="height" constant="120" id="axm-UE-5wO"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
-                                                <state key="normal" title="Beliefs" backgroundImage="beliefs.png"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="Beliefs" backgroundImage="beliefs.png">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="beliefsButtonTapped:" destination="Pyg-FL-y8W" eventType="touchUpInside" id="2GB-Bz-k80"/>
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="2K5-Zq-ux4" firstAttribute="width" secondItem="FY9-Bz-WS9" secondAttribute="width" id="E3B-IX-g4G"/>
+                                            <constraint firstItem="2K5-Zq-ux4" firstAttribute="height" secondItem="FY9-Bz-WS9" secondAttribute="height" id="VVz-8t-ix7"/>
+                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="MCe-56-Hvh">
-                                        <rect key="frame" x="0.0" y="190" width="250" height="100"/>
+                                        <rect key="frame" x="0.0" y="185" width="290" height="120"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WId-dI-YL6">
-                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="100" id="3IL-08-Pnb"/>
-                                                    <constraint firstAttribute="height" constant="100" id="aAK-Bo-jV4"/>
+                                                    <constraint firstAttribute="height" constant="120" id="BTe-X9-xg3"/>
+                                                    <constraint firstAttribute="width" constant="120" id="ggI-9y-Udr"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="1"/>
                                                 <state key="normal" title="Education" backgroundImage="education.png"/>
@@ -126,36 +132,73 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulb-j3-JGT">
-                                                <rect key="frame" x="150" y="0.0" width="100" height="100"/>
+                                                <rect key="frame" x="170" y="0.0" width="120" height="120"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="100" id="SZu-5E-gIT"/>
-                                                    <constraint firstAttribute="width" constant="100" id="jLZ-HP-sd0"/>
+                                                    <constraint firstAttribute="width" constant="120" id="4C2-Ba-GBX"/>
+                                                    <constraint firstAttribute="height" constant="120" id="VGc-y4-jSd"/>
                                                 </constraints>
-                                                <state key="normal" title="Poverty" image="644321-200.png"/>
+                                                <state key="normal" title="Poverty" image="pov.png"/>
                                                 <connections>
-                                                    <action selector="povertyButtonTapped:" destination="Pyg-FL-y8W" eventType="touchUpInside" id="Tfl-Ma-o7U"/>
+                                                    <action selector="povertyButtonTapped:" destination="Pyg-FL-y8W" eventType="touchDown" id="hyI-Jf-aNz"/>
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="ulb-j3-JGT" firstAttribute="width" secondItem="WId-dI-YL6" secondAttribute="width" id="ANi-u3-wHS"/>
+                                            <constraint firstItem="ulb-j3-JGT" firstAttribute="height" secondItem="WId-dI-YL6" secondAttribute="height" id="vNr-m6-MR0"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="MCe-56-Hvh" firstAttribute="height" secondItem="mfB-fU-czb" secondAttribute="height" id="FAB-EF-ee6"/>
+                                    <constraint firstItem="MCe-56-Hvh" firstAttribute="width" secondItem="mfB-fU-czb" secondAttribute="width" id="gBL-5W-GT8"/>
+                                </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="What categories are you interested in?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fle-LF-bln">
-                                <rect key="frame" x="62" y="111" width="250" height="52"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="89" translatesAutoresizingMaskIntoConstraints="NO" id="YGh-b8-H3T">
+                                <rect key="frame" x="69" y="499" width="231" height="20.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Education" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HnR-yg-21q">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Poverty" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="luL-KX-PNJ">
+                                        <rect key="frame" x="169" y="0.0" width="62" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="106" translatesAutoresizingMaskIntoConstraints="NO" id="leA-bX-8Mr">
+                                <rect key="frame" x="72" y="152" width="224" height="20.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Animals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XEv-sF-CkI">
+                                        <rect key="frame" x="0.0" y="0.0" width="64" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Beliefs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2D-Zg-rNZ">
+                                        <rect key="frame" x="170" y="0.0" width="54" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.21960784310000001" green="0.59215686270000001" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="xch-YU-9jN" firstAttribute="trailing" secondItem="fle-LF-bln" secondAttribute="trailing" constant="62.5" id="0B8-Gv-ku2"/>
+                            <constraint firstItem="mn3-dd-JdN" firstAttribute="leading" secondItem="xch-YU-9jN" secondAttribute="leading" constant="42.5" id="3F6-Wb-1iS"/>
                             <constraint firstItem="mn3-dd-JdN" firstAttribute="centerX" secondItem="aJr-Io-avw" secondAttribute="centerX" id="CbG-ez-GMK"/>
-                            <constraint firstItem="fle-LF-bln" firstAttribute="leading" secondItem="xch-YU-9jN" secondAttribute="leading" constant="62.5" id="VNS-P7-wYz"/>
-                            <constraint firstItem="xch-YU-9jN" firstAttribute="trailing" secondItem="mn3-dd-JdN" secondAttribute="trailing" constant="62.5" id="beT-TG-8od"/>
+                            <constraint firstItem="xch-YU-9jN" firstAttribute="trailing" secondItem="leA-bX-8Mr" secondAttribute="trailing" constant="79" id="SuE-cM-f81"/>
                             <constraint firstItem="mn3-dd-JdN" firstAttribute="centerY" secondItem="aJr-Io-avw" secondAttribute="centerY" id="khi-HS-3g8"/>
-                            <constraint firstItem="mn3-dd-JdN" firstAttribute="width" secondItem="fle-LF-bln" secondAttribute="width" id="n48-35-OkD"/>
-                            <constraint firstItem="mn3-dd-JdN" firstAttribute="leading" secondItem="xch-YU-9jN" secondAttribute="leading" constant="62.5" id="oC4-Ju-VT2"/>
+                            <constraint firstItem="xch-YU-9jN" firstAttribute="trailing" secondItem="mn3-dd-JdN" secondAttribute="trailing" constant="42.5" id="rat-IU-tBw"/>
+                            <constraint firstItem="leA-bX-8Mr" firstAttribute="leading" secondItem="xch-YU-9jN" secondAttribute="leading" constant="72" id="t3d-PV-mSn"/>
+                            <constraint firstItem="xch-YU-9jN" firstAttribute="trailing" secondItem="YGh-b8-H3T" secondAttribute="trailing" constant="75" id="uLx-uX-QW6"/>
+                            <constraint firstItem="YGh-b8-H3T" firstAttribute="leading" secondItem="xch-YU-9jN" secondAttribute="leading" constant="69" id="zRm-DC-ZjZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xch-YU-9jN"/>
                     </view>
@@ -226,10 +269,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="644321-200.png" width="200" height="200"/>
         <image name="animals.png" width="2000" height="2000"/>
         <image name="beliefs.png" width="2000" height="2000"/>
         <image name="education.png" width="832" height="720"/>
         <image name="helper.png" width="417" height="417"/>
+        <image name="pov.png" width="200" height="200"/>
     </resources>
 </document>
